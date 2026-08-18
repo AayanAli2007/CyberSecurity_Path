@@ -84,6 +84,13 @@ for word in open(r"C:\Users\aayan\Documents\Burp\auth-lab-passwords.txt"):
     engine.queue(target.req, ["aq",word.rstrip()])
 ```
 
+Lab: 2FA broken logic
+Now this one was increibly painful, i tried logining in with my own account then then changing the mfa-code for the brute force and it just wasnt working.
+I looked at the solution and relised that i was mising a key step. That step was sending the itial GET resuest as if I was "carlos" 
+to ask the resver to actually produce the code for me to then start brute forcing.
+
+
+
 
 
 
