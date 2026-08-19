@@ -100,6 +100,13 @@ encoded = base64.b64encode(value.encode()).decode()
 engine.queue(target.req, encoded)
 ```
 
+Lab: Password brute-force via password change
+Now this one is my fault, i should have investiaged more before i started trying sending packets. The problem with the website was it alloed eny user to change enyones password, 
+and deppending on the website response you could see wheather the guessed password was correct or not without having eny limits sent on how many tries someone could do.
+
+
+
+
 
 
 
