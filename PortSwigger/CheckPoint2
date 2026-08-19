@@ -89,9 +89,16 @@ Now this one was increibly painful, i tried logining in with my own account then
 I looked at the solution and relised that i was mising a key step. That step was sending the itial GET resuest as if I was "carlos" 
 to ask the resver to actually produce the code for me to then start brute forcing.
 
-
-
-
+Lab: Brute-forcing a stay-logged-in cookie
+So i relised that the cookie was Base64 encoded with some string after the username.
+So i  plugged into this ("https://hashes.com/en/tools/hash_identifier") and saw that it was in MD5. Then i put it into a MD5 hash cracker and saw that my password as unsalted. YAY!
+After that using this code i brute forced the cookie and then plugged the hash i got back into a hash cracker to get the password "monitoring" 
+```
+md5_hash = hashlib.md5((word.rstrip()).encode()).hexdigest()
+value = "carlos:" + md5_hash
+encoded = base64.b64encode(value.encode()).decode()
+engine.queue(target.req, encoded)
+```
 
 
 
