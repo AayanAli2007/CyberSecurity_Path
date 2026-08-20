@@ -6,6 +6,7 @@ Now from my research before going into Bug Bounty Hunting the "low hanging fruit
 
 So ill be going throught these particual topics before starting my Bug Hunting Journey
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 https://portswigger.net/web-security/access-control
 
 Lab: URL-based access control can be circumvented
@@ -34,7 +35,7 @@ https://portswigger.net/web-security/access-control/idor
 Lab: Insecure direct object references
 This one was quite silly, who on earth messages someone thier password...
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 https://portswigger.net/web-security/authentication
 https://portswigger.net/web-security/authentication/password-based
 
@@ -104,6 +105,8 @@ Lab: Password brute-force via password change
 Now this one is my fault, i should have investiaged more before i started trying sending packets. The problem with the website was it alloed eny user to change enyones password, 
 and deppending on the website response you could see wheather the guessed password was correct or not without having eny limits sent on how many tries someone could do.
 
+
+The only labs i am skipping from this section are the 2 Expert labs and "Lab: Offline password cracking" and "Lab: Password reset poisoning via middleware"
 
 
 
