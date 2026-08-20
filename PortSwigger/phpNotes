@@ -1,0 +1,41 @@
+<?php
+$variable = "hello";
+$number = 123;
+$boolean = true;
+echo $variable;
+print($variable);
+
+if ($number > 100) {
+    echo "Large";
+} else {
+    echo "Small";
+}
+
+for ($i = 0; $i < 10; $i++) {
+    echo $i;
+}
+
+foreach ($array as $item) {
+    echo $item;
+}
+?>
+
+
+The diffence between echo and print are that
+ - echo can take multiple arguemnts, print is a function that returns a "1"
+
+
+shell_exec() opens a new shell instance and runs it their and returns the output to your main program
+chdir() actually changes ur current directory (unlike shell_exec("cd /tmp") which would be temperary)
+
+
+
+
+
+
+
+
+
+
+
+
