@@ -1,0 +1,12 @@
+Now after re-evalution and doing the Auth and IDOR labs I have made a new plan (cuase I want to start my first hunt, and earn my first check)
+Heres everything ill need to know to find an IDOR/Auth vunerability:
+- Access control vulnerabilities (CheckPoint2)
+- Authentication (CheckPoint2)
+- API testing (Apprentice)
+- Information disclosure (Apprentice)
+- Business logic vulnerabilities (Apprentice)
+
+Now hopefully after I have finnished these 3 at an apperentice level I can start my first hunt.
+
+------------------------------------------------------------------------------------------------------------
+https://portswigger.net/web-security/api-testing
