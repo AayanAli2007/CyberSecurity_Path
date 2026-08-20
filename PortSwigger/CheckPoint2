@@ -1,4 +1,4 @@
-Now from my research before going into Bug Bounty Hunting the "low hanging fruit" of vunerabilities (that are easier for begginers are as followed
+Now from my research before going into Bug Bounty Hunting the "low hanging fruit" of vunerabilities (that are easier for begginers|)   
 1) Insecure direct object references (IDOR) // Acsess controll
 2) Authentication vulnerabilities
 3) File upload vulnerabilities
